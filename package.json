@@ -4,6 +4,9 @@
   "repository": "https://github.com/nolanlawson/pokedex.git",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "app": "www"
+  },
   "scripts": {
     "serve": "async-node bin/dev-server.js",
     "lint": "eslint bin/*js src/js",
